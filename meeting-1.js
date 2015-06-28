@@ -64,9 +64,15 @@ false
 
 true
 
+false
+
+!true
+
 3 > 2
 
 3 < 6
+
+6 == 6
 
 6 != 6
 
@@ -94,7 +100,7 @@ false
 
 !true
 
-// && koniunkcja / and
+// && koniunkcja / and / conjunction
 
 true  && true  // true
 false && true  // false
