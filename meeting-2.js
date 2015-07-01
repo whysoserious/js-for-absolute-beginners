@@ -126,12 +126,16 @@ while (power <= 5) {
 // ZADANIA:
 
 /*
+ZADANIE 1.
+
 założyć konto na https://github.com
 kawałki kodu wklejać jankowi na https://gist.github.com
 
 */
 
 /*
+ZADANIE 2.
+
 #
 ##
 ###
@@ -146,6 +150,8 @@ str
 str + "#"
 
 /*
+ZADANIE 3.
+
 1: 1
 2: 2
 3: Fizz
