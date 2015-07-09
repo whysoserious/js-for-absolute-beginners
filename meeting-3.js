@@ -107,27 +107,6 @@ var zamieńLiczbęNaStringa = function(num) {
 }
 console.log(zamieńLiczbęNaStringa(15))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var divisibleBy3 = function(n, ) {
   var k = n % 3
   if (n % 3 == 0) {
