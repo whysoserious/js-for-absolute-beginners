@@ -34,8 +34,7 @@ while (num <= 100) {
 // for / []
 
 var n = 1 // initial value
-while (n <= 5) {
-  // check
+while (n <= 5 /* check */) {
   console.log(n)
   n = n + 1 // update
 }
