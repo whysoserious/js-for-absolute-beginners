@@ -68,6 +68,8 @@ factorial(6.5);
 
 // HOMEWORK
 
+// JS Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
 // 1. Napisać najzwięźlej i najczytelniej funkcję factorial.
 
 // 2. BONUS QUEST Przepisać funkcję factorial:
