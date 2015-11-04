@@ -85,8 +85,10 @@ var displaySomeElementsFor = function(arr, n) {
 }
 
 /*
-4. Napisać funkcję, która zwraca tablicę zawierającą miejsca zerowe funkcji kwadratowej. 
+BONUS QUEST: Zacznij pracę nad tym zadaniem i powiedz na czym się zaciąłeś. Za zrobienie zadania stawiam daję zajebisty prezent-niespodziankę.
 
+4. Napisać funkcję, która zwraca tablicę zawierającą miejsca zerowe funkcji kwadratowej. 
+Manual: http://www.math.edu.pl/funkcja-kwadratowa
 
 */
 
