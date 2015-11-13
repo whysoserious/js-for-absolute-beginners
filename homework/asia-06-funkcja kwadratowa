@@ -27,15 +27,19 @@ ileMiejsc(5, 8, 3)
 
 var miejscaZerowe = function(a, b, c) {
   var delta3 = Math.pow(b, 2) - 4 * a * c;
-  if (delta3 > 0) {
-    var x1 = (-b - Math.pow(delta3, 2)) / (2 * a);
-    var x2 = (-b + Math.pow(delta3, 2)) / (2 * a);
-    console.log(x1, x2);
-  } else if (delta3 == 0) {
-    var x3 = -b / 2 * a;
-    console.log(x3);
+  if (a == 0) {
+    console.log(Infinity);
   } else {
-    console.log("brak miejsc zerowych");
+    if (delta3 > 0) {
+      var x1 = (-b - Math.pow(delta3, 2)) / (2 * a);
+      var x2 = (-b + Math.pow(delta3, 2)) / (2 * a);
+      console.log(x1, x2);
+    } else if (delta3 == 0) {
+      var x3 = -b / 2 * a;
+      console.log(x3);
+    } else {
+      console.log("brak miejsc zerowych");
+    }
   }
 }
-miejscaZerowe(2, 2, 2)
+miejscaZerowe(0, 8, 5)
