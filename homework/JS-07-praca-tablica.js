@@ -50,11 +50,11 @@ var displaySomeElementsWhile = function(arr, n) {
   while (cnt < arr.length) {
     if (arr[cnt] > n) {
       console.log(cnt + ": " + arr[cnt]);
+      }
+      cnt = cnt + 1;
     }
-    cnt = cnt + 1;
-  }
 }
-displaySomeElementsWhile([1, 10, 2, 20, 3, 30], 5)
+displaySomeElementsWhile([1, 10, 2, 20, 3, 30], 5);
 
 // for
 
@@ -69,23 +69,17 @@ displaySomeElementsFor([1, 10, 2, 20, 3, 30], 5);
 
 
 // zadanie nr 4 Napisać funkcję, która zwraca tablicę zawierającą miejsca zerowe funkcji kwadratowej.
-// TODO JZ: ta funkcja zwraca undefined lub stringa lub liczbę. ma zwracać tablicę
 
 var roots = function(a, b, c) {
   var delta = Math.pow(b, 2) - 4 * a * c;
-  if (a == 0) {
-    console.log(Infinity);
-  } else {
-    if (delta > 0) {
-      var x1 = (-b - Math.pow(delta, 2)) / (2 * a);
-      var x2 = (-b + Math.pow(delta, 2)) / (2 * a);
-      return x1 + ", " + x2;
-    } else if (delta == 0) {
-      var x1 = -b / 2 * a;
-      return x1;
-    } else {
-      return "brak miejsc zerowych";
-    }
+  if (delta > 0) {
+    var x1 = (-b - Math.pow(delta, 2)) / (2 * a);
+    var x2 = (-b + Math.pow(delta, 2)) / (2 * a);
+    var arr = [x1 , x2];
+  } else if (delta == 0) {
+    var x1 = -b / 2 * a;
+    var arr = [x1];
   }
+  return arr
 }
-roots(2, 8, 2);
+roots(4, 8, 4);
